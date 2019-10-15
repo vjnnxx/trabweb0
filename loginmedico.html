@@ -2,24 +2,28 @@
 <html>
 	<head>
 		<meta charset = "utf-8">
-		<title>A Turminha - Odontopediatria</title>
+		<title>Área do médico</title>
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 	</head>
 	<body>
-		<header>
+		<header class="cabecalho">
+			<img src="imagens/logo3.jpg" id="logo">
 			<img src="imagens/logo-real.png" id="titulo">
+			<div class="clear"></div>
 		</header>
+		<div class="blocoespaco">
+		</div>
 		<div id = "corpo">
-			<h1>Quem somos</h1>
-			<p>Somos alunos da turma de Introdução à Sistemas Web, vulgarmente conhecida como Web 0,
+			<h1>Seja bem-vindo(a)</h1>
+			<!--<p>Somos alunos da turma de Introdução à Sistemas Web, vulgarmente conhecida como Web 0,
 			de Sistemas de Informação/ICE da Universidade Federal Rural do Rio de Janeiro. 
 			O intuito deste conjunto de páginas é criar um modelo de páginas que forneçam uma boa acessibilidade para seus públicos alvos, sendo estes: 
 			odontopediatras da empresa fictícia e das crianças que buscam atendimento.</p>
-			<p>Para iniciar os processos, você deve escolher quem é você: um médico ou um paciente.</p>
+			<p>Para iniciar os processos, você deve escolher quem é você: um médico ou um paciente.</p>-->
 			<div id="acesso">
-				<h2>Eu sou um(a):</h2>
-				<div id="medico">	
-					<a href="medico-login.html">
+				<!--<h2>Eu sou um(a):</h2>
+				<div id="medico" href="loginmedico.html">	
+					<a href="">
 						<div>
 							<img src="imagens/doctor.png" width="150">
 							<h3>Médico</h3>
@@ -28,16 +32,27 @@
 				</div>
 
 				<div id="paciente">
-					<a href="paciente-login.html">
+					<a href="">
 						<div>
 							<img src="imagens/kid.png" width="162">
 							<h3>Paciente</h3>
 						</div>
 					</a>
 				</div>
-			</div>
+			</div> -->
+			<div id = "medico">
+			<form class="formulario medico">
+				<div>
+					<img src="imagens/doctor.png" width="150">
+				</div>
+				<input type="text" class="campo_login" placeholder="  Login"><br>
+				<input type="password" class="campo_senha" placeholder="  Senha"><br>
+				<button class="botao_entrar" type="submit">Entrar</button> 
+				<button class="botao_cadastrar" type="submit">Cadastrar</button>
+			</form>
 		</div>
-		<footer>
+		</div>
+		<footer class="fixa">
 			<div id="img-footer1">
 				<img src="imagens/bandeira-rj.jpg" width="100px">
 			</div>
