@@ -1,0 +1,74 @@
+body{
+	background-color: #40BEFF;
+	margin-bottom: -1%;
+}
+/*-------------------HEADER----------------*/
+ 
+header {
+	position: relative;
+	margin-left: -.5%;
+	margin-right: -.5%;
+	margin-top: -.5%;
+	background-color: #666AE8;
+	text-align: center;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 0px 3px 7px grey;
+}
+/*---------------------CORPO----------------*/
+
+#corpo{
+	font-family: Arimo, sans-serif;
+	padding: 3%;
+	width: 80%;
+	background-color: white;
+	margin-left: 7%;
+}
+			/*------Login------*/
+			
+#acesso {
+	display: block;
+	text-align: center;
+}
+#acesso a {
+	text-decoration: none;
+	color: #F5D157;
+}
+#medico, #paciente {
+	display: inline-block;
+	background-color: #666AE8;
+	text-align: center;
+	border-radius: 12px;
+	padding: 3%;
+	margin: 1%;
+}
+#medico h3 {
+	margin-top: 30.72px;
+}
+
+/*-----------------------FOOTER-------------*/
+
+footer {
+	position: relative;
+	margin-top: .1%;
+	margin-left: -.5%;
+	margin-right: -.5%;
+	padding: 2%;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 3px 0px 7px grey;
+	background-color: #666AE8;
+}
+#img-footer1 {
+	padding: 2%;
+	float: right;
+}
+
+#img-footer2 {
+	padding: 2%;
+	float: right;
+}
+#alunos h3 {
+	color: rgb(244,219,77);
+}
+#contatos{
+	color: rgb(244,219,77);
+}
