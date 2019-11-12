@@ -2,19 +2,24 @@ body{
 	background-color: #40BEFF;
 	margin-bottom: -1%;
 	font-family: Arimo, sans-serif;
+	margin: 0;
 }
 /*-------------------HEADER----------------*/
  
 header {
 	position: relative;
-	padding: 10px;;
-	margin-left: -.5%;
+	padding: 5px;
+	/*margin-left: -.5%;
 	margin-right: -.5%;
-	margin-top: -.5%;
+	margin-top: -.5%;*/
 	background-color: #666AE8;
 	text-align: center;
 	border-radius: 0px 0px 20px 20px;
 	box-shadow: 0px 3px 7px grey;
+}
+
+.titulo{
+	color: rgb(244,219,77);
 }
 /*---------------------CORPO----------------*/
 
@@ -117,31 +122,29 @@ header {
 #img-footer2 {
 	float: right;
 }
+/*============ Main medico-cadastro.html/paciente-cadastro.html ================*/
+#corpo-cadastro{
+	text-align: center;
+	padding: 3%;
+	width: 60%;
+	background-color: white;
+	margin-left: 15%;
+}
 
+.cadastro{
+	text-align: center;
+}
+input{
+	margin: 2px;
+	text-align: center;
+}
 /*-----------------------FOOTER-------------*/
 
-footer {
-	position: relative;
-	margin-top: .1%;
-	margin-left: -.5%;
-	margin-right: -.5%;
-	padding: 1%;
-	border-radius: 20px 20px 0px 0px;
-	box-shadow: 3px 0px 7px grey;
-	background-color: #666AE8;
-}
-#img-footer1 {
-	padding: 2%;
-	float: right;
+footer{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
-#img-footer2 {
-	padding: 2%;
-	float: right;
-}
-#alunos h3 {
-	color: rgb(244,219,77);
-}
-#contatos{
-	color: rgb(244,219,77);
-}
+
