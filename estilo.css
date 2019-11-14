@@ -3,11 +3,21 @@ body{
 	margin-bottom: -1%;
 	font-family: Arimo, sans-serif;
 	margin: 0;
+	min-width: 500px;
 }
 
 .clear {
 	clear: both;
 }
+
+label, #submit {
+	cursor: pointer;
+}
+
+.tab {
+	padding-left: 15px; 
+}
+
 /*-------------------HEADER----------------*/
  
 header {
@@ -22,6 +32,10 @@ header {
 	box-shadow: 0px 3px 7px grey;
 }
 
+#home-icon {
+	width: 20px;
+}
+
 .titulo{
 	color: rgb(244,219,77);
 }
@@ -33,6 +47,7 @@ header {
 	width: 80%;
 	background-color: white;
 	margin-left: 7%;
+	/*min-width: 470px;*/
 }
 			/*------Login------*/
 			
@@ -220,6 +235,50 @@ input{
 	margin-bottom: 0px;
 }
 
+/*============ contato.html ================*/
+
+#faleconosco, #sobre {
+	float: left;
+	padding: 5px;
+	width: 47%;
+	box-sizing: border-box;
+
+	/*border: 1px solid black;*/
+}
+
+#faleconosco {
+	width: 50%;	
+	border: 1px solid rgb(175,175,175);
+	border-width: 0 1px 0 0;
+}
+
+#sobre {
+	float: right;
+}
+
+#duvida {
+	max-width: 98%;
+	width: 400px;
+	height: 335px;
+}
+
+#faleconosco form>div {
+	margin-bottom: 10px;
+}
+
+#faleconosco form input {
+	text-align: left;
+}
+
+#mapa {
+	text-align: center;
+}
+
+#gmaps {
+	width: 300px;
+	border: 5px solid rgba(150,150,150,0.5);
+}
+
 /*-----------------------FOOTER-------------*/
 
 footer{
@@ -227,6 +286,55 @@ footer{
 	margin-top: 20px;
 	font-size: 18px;
 	font-weight: bold;
+	width: 475px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 475px;
+
 }
 
+#copyright, #contato {
+	border: 1px solid black;
+	padding: 10px 0;
+	float: left;
+	margin: 10px;
+	background-color: rgba(102,106,232,0.4);
+	color: #F5D157;
+}
+
+#copyright {
+	padding: 10px;
+}
+
+#contato a {
+	color: black;
+	padding: 10px;
+	padding-bottom: 11px;
+	color: #F5D157;
+}
+
+#contato a:hover {
+	background: rgba(102,106,232,0.6);
+	text-decoration: none;
+}
+
+#contato a:active {
+	background: rgba(102,106,232,1);
+}
+
+#cpy {
+	border: 1px solid black;
+	background-color: rgba(102,106,232,0.4);
+	padding: 10px;
+	color: #F5D157;
+}
+
+#cont {
+	width: 300px;
+	min-width: 300px;
+}
+
+/*background-color: #666AE8;
+color: #F5D157;
+*/
 
