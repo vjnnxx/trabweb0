@@ -3,7 +3,6 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>A Turminha - Odontopediatria</title>
-		<link rel="stylesheet" type="text/css" href="estilo.css">
 		<link rel="stylesheet" type="text/css" href="estilo2.css">
 	</head>
 	<body>
@@ -12,23 +11,27 @@
 			<h1 class = "titulo">Odontopediatria</h1>
 		</header>
 		<div id = "corpo-cadastro">
-            <a href="pag_inicial.html"><img src="imagens/home.png" width="50" style="position: absolute; top: 5px; right: 5px;"></a>
+            <a href="pag_inicial.html"><img src="imagens/home.png" width="75" style="position: absolute; top: 5px; right: 5px;"></a>
             <h2> Cadastro - Odontopediatra</h2>
             <form method="POST">
-                <input type="text" name="nome" placeholder="Nome"> <br>
-                <input type="text" name="RG" placeholder="RG"> <br>
-                <input type="text" name="CPF" placeholder="CPF(000.000.000-00)"><br>
-                <input type="text" name="CRM" placeholder="CRM"><br>
-                <input type="text" name="especialidade" placeholder="Especialidade"> <br>
-                <input type="email" name="email" placeholder="jajaja@exemplo.com"><br>
-                <input type="tel" name="tel" placeholder="Telefone"><br>
-                <input type="text" name="endereco" placeholder="Endereço"><br>
-                <a href="medico-login.html"><input type="button" value="Enviar"></a>
-
-
+                <input class="cad-input" type="text" name="nome" placeholder="Nome"> <br>
+                <input class="cad-input" type="text" name="RG" placeholder="RG"> <br>
+                <input class="cad-input" type="text" name="CPF" placeholder="CPF(000.000.000-00)"><br>
+                <input class="cad-input" type="text" name="CRM" placeholder="CRM"><br>
+                <input class="cad-input" type="text" name="especialidade" placeholder="Especialidade"> <br>
+                <input class="cad-input" type="email" name="email" placeholder="jajaja@exemplo.com"><br>
+                <input class="cad-input" type="tel" name="tel" placeholder="Telefone"><br>
+                <input class="cad-input" type="text" name="endereco" placeholder="Endereço"><br>
+                <a href="medico-login.html"><input id="submit" type="button" value="Enviar"></a>
 		</div>
 		<footer>
-			&copy; Todos os direitos reservados
+			<div id="copyright">
+				&copy; Todos os direitos reservados
+			</div>
+			<div id="contato">
+				<a href="contato.html">Fale Conosco</a>
+			</div>
+			<div class="clear"></div>
 		</footer>
 	</body>
 </html>

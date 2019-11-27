@@ -3,7 +3,7 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>A Turminha - Odontopediatria</title>
-		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="estilo2.css">
 	</head>
 	<body>
 		<header>
@@ -22,18 +22,22 @@
 						<!-- <fieldset></fieldset> -->
 						<div>
 							<label for="email">E-mail:<br></label>
-							<input type="text" name="email" id="email">
+							<input class="cad-input" type="text" name="email" id="email" style="padding-left: 5px;">
 						</div>
 						<div>
 							<label for="nome">Nome:<br></label>
-							<input type="text" name="nome" id="nome">
+							<input class="cad-input" type="text" name="nome" id="nome" style="padding-left: 5px;">
 						</div>
 						<div>
-							<label for="tel">Telefone de contato:<br></label>
-							<input type="text" name="tel" id="tel" placeholder="(00) 0000-0000">
+							<label for="tel1">Telefone fixo:<br></label>
+							<input class="cad-input" type="text" name="tel1" id="tel"1 placeholder="(00) 0000-0000" style="padding-left: 5px;">
 						</div>
 						<div>
-							<input type="submit" value="Enviar" id="submit">
+							<label for="tel2">Telefone celular:<br></label>
+							<input class="cad-input" type="text" name="tel2" id="tel2" placeholder="(00) 9 0000-0000" style="padding-left: 5px;">
+						</div>
+						<div>
+							<input id="submit" type="submit" value="Enviar" id="submit">
 						</div>
 					</div>
 				</form>
